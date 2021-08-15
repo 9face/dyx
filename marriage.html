@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>征婚网</title>
+		<style type="text/css">
+			h3{
+				text-align: center;
+			}
+			p{
+				color: gray;
+				
+			}
+			p:hover {
+			color: red;
+			}
+			input:focus {
+			background-color:yellow;
+			}
+			body {
+			    background-image: url(th.jpg);
+			    background-repeat: no-repeat;
+			    background-position: center top;
+			    /* 把背景图片固定住 */
+			    background-attachment:fixed;
+			    color: #fff;
+			    font-size: 20px;
+			}
+		</style>
+	</head>
+	<body>
+		<form>
+			<h1><center><strong>青春常在抓紧时间谈恋爱</strong></center></h1>
+			<h2><center>花点时间填写结果会让您更满意</center></h2>
+			<h3>性别:<input type="radio" name="sex" value="man" /><img src="男.png" width="15" height="15" >男
+			&#8195&#8195<input type="radio" name="sex" value="woman" /><img src="女.png" width="15" height="15">女</h2>
+			<h3>生日:<input type="date"></h3>
+			<h3>所在地区:<select>
+				<option selected="selected">--请选择所在地--</option>
+				<option value="上海">上海</option>
+				<option value="北京">北京</option>
+				<option value="江苏">江苏</option>
+				<option value="广东">广东</option>
+				<option value="福建">福建</option>
+				<option value="江西">江西</option>
+			</select></h3>
+			<h3>婚姻状况:<input type="radio" name="婚姻" value="已婚" />已婚
+			&#8195&#8195<input type="radio" name="婚姻" value="离婚" />离婚
+			&#8195&#8195<input type="radio" name="婚姻" value="未婚" />未婚</h3>
+			<h3><fieldset>
+				<legend>健康信息</legend>
+				身高：<input type="text" name="身高"/>
+				体重：<input type="text" name="体重"/>
+				</fieldset></h3>
+			<h3>学历:<select>
+				<option value ="无" selected="selected">--请选择学历--</option>
+				<option value=本科">本科</option>
+				<option value="学士">学士</option>
+				<option value="硕士">硕士</option>
+				<option value="博士">博士</option>
+				<option value="大专">大专</option>
+			</select></h3>
+			<h3>喜欢的类型:<input type="radio" name="类型" value="妩媚的" />妩媚的
+			&#8195&#8195<input type="radio" name="类型" value="可爱的" />可爱的
+			&#8195&#8195<input type="radio" name="类型" value="小鲜肉" />小鲜肉
+			&#8195&#8195<input type="radio" name="类型" value="小腊肉" />小蜡肉
+			&#8195&#8195<input type="radio" name="类型" value="都喜欢" />都喜欢</h3>
+			<h3>自我介绍<textarea name= "message"></textarea></h3>
+			<h3><input type="submit" value="免费注册"/></h3>
+			<p>祝你好运!</p>
+		
+			
+		</form>
+	</body>
+</html>
